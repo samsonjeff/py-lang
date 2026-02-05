@@ -1,4 +1,4 @@
-# DATACAMP module 1 (list& tuple)
+# DATACAMP module 1 (lists & tuple) subsetting lists
 import random
 
 houseAreaName = ["hallway", 
@@ -14,4 +14,7 @@ generateArea = [[f"House_Area:{name} ({round(random.uniform(1, 200), 2)} sqm)"] 
 # House information as list of lists
 
 #print(houseArea[:2]) #retrieving list from index 0 to 1
-print(generateArea) #retrieving index tuple lists
+# print(generateArea) #retrieving index tuple lists
+# print(generateArea[0:4]) # 0 to index 4
+# print(generateArea[:4]) # 0 to index 4
+print(generateArea[4:]) # 4 to end

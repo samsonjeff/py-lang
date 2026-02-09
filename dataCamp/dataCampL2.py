@@ -16,7 +16,7 @@ sampleData.append(["Garden", 20.5]) # other way to ADD data on list
 
 sampleData.extend(newData) # other way to ADD data on list
 
-del sampleData[-2:]
+del sampleData[6:]
 
 # print(printOut)
 print(sampleData)

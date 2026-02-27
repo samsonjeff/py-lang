@@ -14,8 +14,12 @@ print(areas_copy)
 # Change areas_copy
 areas_copy[0] = 5.0
 del areas_copy[1]
-print("show highest value" , max(areas_copy))
-print("show lowest value" , min(areas_copy))
+
+highest = max(areas)
+lowest = min(areas)
+
+print("show highest value" , highest)
+print("show lowest value" , lowest)
 
 # Print areas
 print(areas)

@@ -18,3 +18,17 @@ generateArea = [[f"House_Area:{name} ({round(random.uniform(1, 200), 2)} sqm)"] 
 # print(generateArea[0:4]) # 0 to index 4
 # print(generateArea[:4]) # 0 to index 4
 print(generateArea[4:]) # 4 to end
+
+#sorting
+# Create lists first and second
+first = [11.25, 18.0, 20.0]
+second = [10.75, 9.50]
+
+# Paste together first and second: full
+full = first + second
+
+# Sort full in descending order: full_sorted
+full_sorted = sorted(full)
+
+# Print out full_sorted
+print(full_sorted)

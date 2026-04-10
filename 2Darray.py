@@ -14,3 +14,9 @@ c = string_2d.dtype
 d = string_2d.shape
 
 print(f"print string data {a},type of data is {b}, data inside of string_2d {c}, shape of string_2d is {d} ")
+
+#subsetting
+print(string_2d[ : , 1:3])
+#output     # [['2' '3']
+            #  ['7' '8']]
+print(string_2d[1, : ])

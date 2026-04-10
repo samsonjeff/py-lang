@@ -20,3 +20,12 @@ print(str(len(fam_ext)) + " elements in fam_ext")
 
 ...
 np_fam = array(fam)
+
+import math as m
+
+r = 0.43
+c = 2 * r * m.pi
+a = m.pi * r **2
+
+print(c)
+print(a)
